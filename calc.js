@@ -13,6 +13,7 @@ var theOp = '';
 var lastNumber;
 var lastOp;
 var ready = false;
+var valSign = '+';
 
 $('[id^=button]').click(function() {
   if (theOp == '=') { // if the last operation was = and now we're pressing a new number, 0 out the total
